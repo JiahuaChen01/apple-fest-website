@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Instructor provided content -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header-container">
+        <a href="index.html"> <img src="images/apple-harvest-logo.svg" alt="Apple Fest Logo" class="logo"></a>
+<!-- Instructor provided logo -->
+<button id="hamburger-icon" class="hamburger-button">
+    &#9776;
+</button>
+
+
+<nav>
+    <ul id=nav-menu class="hidden">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="vendor-list.html">Vendors</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+    </ul>
+</nav>
+
+    </header>
+
+    <header class="page-title">
+        <h1>Apple Harvest Festival Gallery</h1>
+        <h2>Check out highlights from past festivals!</h2>
+    </header>
+    <button id="vendor-Button" class="disclaimer-button">Disclaimer</button>
+    <main class="layout">
+
+        <div class="main-content">
+            <section id="gallery">
+                <h2>Festival Highlights</h2>
+
+                <div class="gallery-row">
+                    <div class="gallery-item">
+                        <img src="images/apple-basket-many.jpg" alt="Apple basket full of fresh apples" class="gallery-pic">
+                        <p>Fresh apples from the farm stands.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/apple-cider-jugs.jpg" alt="Jugs of fresh apple cider" class="gallery-pic">
+                        <p>Freshly made apple cider for sale.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/apple-vendors.jpg" alt="Festival vendor booths" class="gallery-pic">
+                        <p>Vendor booths displaying apple-related products.</p>
+                    </div>
+                </div>
+<!-- Instructor provided image -->
+                <div class="gallery-row">
+                    <div class="gallery-item">
+                        <img src="images/baked-goods.jpg" alt="A display of baked goods" class="gallery-pic">
+                        <p>Delicious baked goods from the festival.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/cider-donuts-horizontal.jpg" alt="Fresh cider donuts" class="gallery-pic">
+                        <p>Enjoy fresh cider donuts at the festival.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/mac-n-cheese.jpg" alt="Mac n cheese for customers to purchase" class="gallery-pic">
+                        <p>Mac n Cheese for customer to purchase.</p>
+                    </div>
+                </div>
+<!-- Instructor provided image -->
+                <div class="gallery-row">
+                    <div class="gallery-item">
+                        <img src="images/apple-wines.jpg" alt="Apple wines and ciders for tasting" class="gallery-pic">
+                        <p>Apple wines and ciders for tasting at the festival.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/apples-pile-close.jpg" alt="Close-up of a pile of apples" class="gallery-pic">
+                        <p>Close-up of freshly picked apples.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/craft-jewelry.jpg" alt="Handmade jewelry from local artisans" class="gallery-pic">
+                        <p>Beautiful handmade jewelry from local artisans.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="sidebar">
+            <aside>
+                <h3>Visitor Tips</h3>
+                <ul>
+                    <li>Bring cash, some vendors may not accept cards.</li>
+                    <li>Dress in layers; fall weather in Ithaca can be unpredictable.</li>
+                    <li>Parking is available at the Seneca and Cayuga Street garages.</li>
+                    <li>Arrive early to avoid crowds on Saturday and Sunday.</li>
+                </ul>
+
+                <h3>Key Attractions</h3>
+                <ul>
+                    <li>Live Music at the Bernie Milton Pavilion</li>
+                    <li>Artisan Craft Fair</li>
+                    <li>Cider Tasting Trail</li>
+                    <li>Apple-Themed Food Stalls</li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+
+
+    <div id="Disclaimer-modal" class="hidden">
+        <div class="modal-content">
+            <button class="closeButton">X</button>
+
+            <p>Some vendors might not be present during the time of your visit.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Apple Harvest Festival | Designed by Jiahua Chen | <a href="mailto:info@downtownithaca.com">Contact Us</a></p>
+    </footer>
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/modal.js"></script>
+    <script src="scripts/hamburger-menu.js"></script>
+</body>
+
+</html>
